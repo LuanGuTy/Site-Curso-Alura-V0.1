@@ -1,7 +1,7 @@
-img{
+#indexIMG{
 
     position: absolute;
-    width: 1396px;
+    width: 100%;
     height: 294px;
     left: 0px;
     top: 0px;
@@ -10,6 +10,126 @@ img{
     filter: blur(2px);
 
 }
+
+#loginIMG {
+
+    position: absolute;
+    width: 23px;
+    height: 21px;
+    left: 148px;
+    top: 8px;
+    
+
+}
+
+#link1 {
+
+    position: absolute;
+    width: 138px;
+    height: 58px;
+    left: 21px;
+    top: 11px;
+    
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#link2 {
+
+    position: absolute;
+    width: 144px;
+    height: 58px;
+    left: 180px;
+    top: 11px;
+    
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+
+}
+
+#link3 {
+
+    position: absolute;
+    width: 143px;
+    height: 58px;
+    left: 1037px;
+    top: 11px;
+    
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#link4 {
+
+    position: absolute;
+    width: 200px;
+    height: 58px;
+    left: 1189px;
+    top: 11px;
+    
+    font-family: 'Comic Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    
+    color: #000000;
+
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
 
 #txt1{
 
@@ -40,8 +160,8 @@ img{
     position: absolute;
     width: 780px;
     height: 58px;
-    left: 308px;
-    top: 553px;
+    left: 30%;
+    top: 75%;
     
     font-family: 'Comic Neue';
     font-style: normal;
@@ -55,8 +175,190 @@ img{
     text-align: center;
     letter-spacing: 0.05em;
     
-    color: #000000;
+    color: #a4d61b;
     
+
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+
+#BG1 {
+
+    background-image: url(design.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Singup1 {
+
+    position: absolute;
+    width: 235px;
+    height: 244px;
+    left: calc(50% - 235px/2);
+    top: calc(50% - 244px/2 - 121.5px);
+    
+    background: #c79484;
+    border-radius: 20px;
+
+}
+
+#Login1 {
+
+    position: absolute;
+    width: 235px;
+    height: 244px;
+    left: calc(50% - 235px/2);
+    top: calc(50% - 244px/2 - 121.5px);
+    
+    background: #BBEBE2;
+    border-radius: 20px;
+
+}
+
+#Login2 {
+
+    position: absolute;
+    width: 184px;
+    height: 36px;
+    left: 26px;
+    top: 22px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+#LoginTXT1 {
+
+    position: absolute;
+    width: 125px;
+    height: 15px;
+    left: 15px;
+    top: 11px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+
+}
+
+#Login3 {
+
+    position: absolute;
+    width: 199px;
+    height: 25px;
+    left: 18px;
+    top: 85px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}  
+
+#LoginTXT2 {
+
+    position: absolute;
+    width: 125px;
+    height: 10px;
+    left: 37px;
+    top: 5px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+#Login4 {
+
+    position: absolute;
+    width: 199px;
+    height: 25px;
+    left: 18px;
+    top: 122px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+#LoginTXT3 {
+
+    position: absolute;
+    height: 10px;
+    left: calc(18% - 36px/2 + 0.5px);
+    top: calc(50% - 15px/2);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+#Login5 {
+
+    position: absolute;
+    width: 199px;
+    height: 25px;
+    left: 18px;
+    top: 150px;
+    
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+#LoginTXT4 {
+
+    position: absolute;
+    height: 16px;
+    width: 163px;
+    left: calc(18% - 36px/2 + 0.5px);
+    top: calc(50% - 15px/2);
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    /* identical to box height */
+    
+    
+    color: rgba(0, 0, 0);
+    
+
+}
+
+#rodape {
+
+background-color: #a4d61b;
+
+
+}
+
+#txt3 {
+
+    text-align: center;
+    color: #000000;
+    
 }
